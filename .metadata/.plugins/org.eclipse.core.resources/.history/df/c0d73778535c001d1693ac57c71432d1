@@ -1,0 +1,26 @@
+package programs;
+
+class Room
+{
+	double length,width;
+	void getData(double l,double w)
+	{
+		length=l;
+		width=w;
+	}
+		void putData()
+	{
+		System.out.println("Length of room is:"+length+"Width of room is:"+width);
+	}
+}
+public class RoomExample
+{
+	public static void main(String[] args)
+	{
+		Room obj=new Room();
+		obj.getData(5.5,2.5);
+		obj.putData();
+		
+	}
+
+}

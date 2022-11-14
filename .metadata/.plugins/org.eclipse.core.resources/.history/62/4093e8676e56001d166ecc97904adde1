@@ -1,0 +1,17 @@
+package programs;
+
+public class StringExamples {
+
+	public static void main(String[] args) 
+	{
+
+      String str1="APPLE";
+		
+      
+      System.out.println("String1 in lower case:"+str1.toLowerCase());
+		
+		
+		
+	}
+
+}

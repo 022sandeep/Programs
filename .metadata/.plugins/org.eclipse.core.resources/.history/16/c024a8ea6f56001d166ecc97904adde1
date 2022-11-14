@@ -1,0 +1,24 @@
+package programs;
+
+public class StringExamples {
+
+	public static void main(String[] args) 
+	{
+
+      String str1="ApPlE";
+	
+     // 1) toLowerCase(): Converts the string str1 to all lower case
+      
+      String lowerCaseString=str1.toLowerCase();
+      
+      System.out.println("String1 in lower case:"+lowerCaseString);
+		
+	// 2) toUpperCase(): Convert the string str1 to all Uppercase
+      
+      String upperCaseString= str1.toUpperCase();
+      
+      System.out.println("String1 in uppercase letter:"+upperCaseString);
+		
+	}
+
+}

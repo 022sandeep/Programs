@@ -1,0 +1,37 @@
+package programs;
+
+public class StringExamples {
+
+	public static void main(String[] args) 
+	{
+
+      String str1="   Apple    ";
+      
+      System.out.println("Original string is:"+str1);
+	
+     // 1) toLowerCase(): Converts the string str1 to all lower case
+      
+      String lowerCaseString=str1.toLowerCase();
+      
+      System.out.println("String1 in lower case:"+lowerCaseString);
+		
+	// 2) toUpperCase(): Convert the string str1 to all Uppercase
+      
+      String upperCaseString= str1.toUpperCase();
+      
+      System.out.println("String1 in uppercase letter:"+upperCaseString);
+      
+     // 3) replace('x','y'): Replaces all appearences of 'x' with 'y'
+      
+      String replacedChar= str1.replace('e','i');
+      
+      System.out.println("String1 after replacing character:"+replacedChar); //Appli
+      
+      // 4) trim(): Removes white spaces at the beginning and end of the string
+      
+	  String stringAfterTrim=str1.trim();
+	  
+	  System.out.println("String1 after trimming:"+stringAfterTrim);
+	}
+
+}

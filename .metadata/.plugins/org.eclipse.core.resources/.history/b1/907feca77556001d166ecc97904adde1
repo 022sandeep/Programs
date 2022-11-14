@@ -1,0 +1,26 @@
+package programs;
+
+public class StringExamples {
+
+	public static void main(String[] args) 
+	{
+
+      String str1="Madhya Pradesh";
+      
+      int length=str1.length();
+      
+      while(length>=1)
+      {
+    	  if(str1.charAt(length)=='a')
+    	  {
+    		  System.out.println(" char is:"+str1.charAt(length));
+    		  
+    	  }
+    	  
+    	  length--;
+    	  
+      }
+    
+	}
+
+}

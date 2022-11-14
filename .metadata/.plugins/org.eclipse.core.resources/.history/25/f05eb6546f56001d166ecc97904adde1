@@ -1,0 +1,18 @@
+package programs;
+
+public class StringExamples {
+
+	public static void main(String[] args) 
+	{
+
+      String str1="ApPlE";
+	
+      String lowerCaseString=str1.toLowerCase();
+      
+      System.out.println("String1 in lower case:"+lowerCaseString);
+		
+		
+		
+	}
+
+}

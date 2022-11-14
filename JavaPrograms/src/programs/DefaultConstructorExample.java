@@ -1,0 +1,21 @@
+package programs;
+class XYZ
+{
+	boolean x,y,z;   //Instance variable
+	
+	
+	void putData()
+	{
+	 System.out.println("x="+x+" y="+y+" z="+z);
+	}	
+}
+
+public class DefaultConstructorExample
+{
+	public static void main(String[] args) 
+	{
+		XYZ obj=new XYZ();  //object instantiation
+		obj.putData();
+	}
+
+}

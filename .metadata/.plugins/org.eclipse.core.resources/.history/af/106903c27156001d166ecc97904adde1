@@ -1,0 +1,25 @@
+package programs;
+
+public class StringExamples {
+
+	public static void main(String[] args) 
+	{
+
+      String str1="Apple";
+      String str2="Orange";
+      
+      // 5) equals(): return true if str1 and str2  are equal
+      
+      if(str1.equals(str2))
+      {
+    	 System.out.println("Strings are equal");    	  
+      }
+      else
+      {
+    	  System.out.println("Strings are not equal");
+      }
+      
+    
+	}
+
+}

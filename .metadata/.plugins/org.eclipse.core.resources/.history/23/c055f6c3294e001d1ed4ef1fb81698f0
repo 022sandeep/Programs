@@ -1,0 +1,27 @@
+package programs;
+
+public class FirstJavaProgram
+{
+	public void display() 
+	{
+		System.out.println("Hi this is display method");
+	}
+	
+
+	public static void main(String[] args) 
+	{
+		FirstJavaProgram obj=new FirstJavaProgram();
+		obj.display();
+
+	}
+
+}
+
+
+
+
+
+
+
+
+

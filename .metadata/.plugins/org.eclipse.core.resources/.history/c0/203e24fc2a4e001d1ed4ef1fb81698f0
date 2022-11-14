@@ -1,0 +1,28 @@
+package programs;
+
+public class FirstJavaProgram
+{
+	
+	public static void main(String[] args) 
+	{
+		int x=100,y=60;
+		
+		if(x>y)
+		{
+			System.out.println("X is greater than Y");
+		}
+		
+		
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+

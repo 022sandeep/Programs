@@ -1,0 +1,25 @@
+package programs;
+class Student
+{
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+public class DefaultConstructorExample
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

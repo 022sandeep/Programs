@@ -1,0 +1,24 @@
+package programs;
+
+public class StringExamples {
+
+	public static void main(String[] args) 
+	{
+
+      String str1="Madhya Pradesh";
+      
+      // 7) length(): gives length of string      
+      
+     int lengthOfString= str1.length();
+     
+     System.out.println("Length of string is:"+lengthOfString);
+     
+      
+      
+      
+      
+      
+    
+	}
+
+}

@@ -1,0 +1,19 @@
+package programs;
+
+public class StringExamples {
+
+	public static void main(String[] args) 
+	{
+
+      String str1="Madhya Pradesh";
+      
+     // 11) indexOf('x'): Gives the position of first occurence of "x" in the string
+      
+         int position=str1.indexOf('P');
+         System.out.println("position of character:"+position);
+      
+      
+    
+	}
+
+}

@@ -1,0 +1,33 @@
+package programs;
+
+public class ElseIfLadder {
+
+	public static void main(String[] args)
+	{		
+		double percentage=76.89;
+		if(percentage<40 && percentage>=0)
+		{
+			System.out.println("Result is Fail");
+		}
+		else if(percentage>=40 && percentage<60)
+		{
+			System.out.println("Result is Second class");
+		}
+		else if(percentage>=60 && percentage<75)
+		{
+			System.out.println("Result is First class");
+		}
+		else if(percentage>=75 && percentage<=100)
+		{
+			System.out.println("Result is Distinction");
+		}
+		else
+		{
+			System.out.println("Invalid percentage ,please enter percentage between 0 to 100");
+		}
+
+	}
+
+}
+
+

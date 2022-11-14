@@ -1,0 +1,37 @@
+package programs;
+
+
+class Sample
+{
+	int a;
+	
+	
+	int getData(int p)
+	{
+		a=p;
+		return(a);
+	}
+	
+	void display()
+	{
+		System.out.println("a="+getData(5));
+		
+	}
+	
+	
+}
+
+
+
+public class SampleClassExample 
+{
+	public static void main(String[] args)
+	{
+		Sample obj=new Sample(); //object
+		
+		//ram.
+		obj.getData(10);
+
+	}
+
+}

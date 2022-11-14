@@ -1,0 +1,32 @@
+package programs;
+
+
+class StaticMembers
+{
+	static int x,y;  //static instance variables
+	
+	static void getData(int p,int q)
+	{
+		x=p;
+		y=q;
+	}
+	static void display()
+	{
+		System.out.println("x="+x+" y="+y);
+	}
+	
+}
+
+public class StaticMembersExample
+{
+	public static void main(String[] args) 
+	{
+		StaticMembers.x=100;
+		System.out.println("x="+StaticMembers.x);
+		StaticMembers.getData(10,20);
+		StaticMembers.display();
+		
+
+	}
+
+}

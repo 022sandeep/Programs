@@ -1,0 +1,30 @@
+package programs;
+
+public class FirstJavaProgram
+{
+	
+	public static void main(String[] args) 
+	{
+		int x=10,y=60;
+		
+		if(x>y)
+		{
+			System.out.println("Inside If/True Block");
+			System.out.println("X is greater than Y");
+		}
+		
+		System.out.println("Control is out side of If block");
+		
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+

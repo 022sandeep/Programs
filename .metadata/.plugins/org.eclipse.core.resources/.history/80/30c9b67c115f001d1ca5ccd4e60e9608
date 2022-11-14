@@ -1,0 +1,43 @@
+package programs;
+
+class Base1
+{
+	int x;	
+	void getx(int p)
+	{
+		x=p;
+	}
+	
+	void displayx()
+	{
+		System.out.println("x="+x);
+	}
+}
+
+class Derived1 extends Base1
+{
+	int y;
+	
+	void gety(int q)
+	{
+	 y=q;
+	}
+	
+	void displayy()
+	{
+		System.out.println("y="+y);
+	}
+}
+public class SingleInheritanceExample1 
+{
+	public static void main(String[] args) {
+		Derived1 obj=new Derived1();
+		obj.getx(10);
+        obj.gety(20);
+        obj.displayx();
+        obj.displayy();
+
+
+	}
+
+}

@@ -1,0 +1,40 @@
+package programs;
+class Student
+{
+	int rollNo;
+	String name;
+	Student()    //Default COnstructor
+	{
+		rollNo=1;
+		name="Ram";
+	}
+	Student(int r,String n)
+	{
+		rollNo=r;
+		name=n;
+	}
+	Student(double r,String n)
+	{
+		rollNo=(int)r;
+		name=n;
+	}	
+	void display()
+	{
+		System.out.println("Roll no="+rollNo+"  Name="+name);
+	}
+}
+public class MultipleConstructorExample {
+
+	public static void main(String[] args) {
+		Student obj1=new Student(); //Default constructor will be called
+		obj1.display();
+		
+		Student obj2=new Student(2,"Shyam");
+		obj2.display();
+		
+		Student obj3=new Student(3.0,"Raj");
+		obj3.display();
+		
+	}
+
+}

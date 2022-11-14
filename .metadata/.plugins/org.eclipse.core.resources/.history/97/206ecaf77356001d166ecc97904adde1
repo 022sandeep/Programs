@@ -1,0 +1,26 @@
+package programs;
+
+public class StringExamples {
+
+	public static void main(String[] args) 
+	{
+
+      String str1="Madhya Pradesh";
+      
+      // 8) charAt(n): gives nth character in a string 
+      
+      char returnedCharacter=str1.charAt(7);
+      
+      System.out.println("CHaracter at:"+returnedCharacter);
+      
+     
+     
+      
+      
+      
+      
+      
+    
+	}
+
+}

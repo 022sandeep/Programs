@@ -1,0 +1,39 @@
+package programs;
+
+public class SwitchCaseExample {
+
+	public static void main(String[] args) {
+		
+		char ch='o';
+		
+		switch(ch)
+		{
+		case 'a':
+			System.out.println("Character:"+ch+" is vowel");
+			break;
+		case 'e':
+			System.out.println("Character:"+ch+" is vowel");
+			break;
+		case 'i':
+			System.out.println("Character:"+ch+" is vowel");
+			break;
+		case 'o':
+			System.out.println("Character:"+ch+" is vowel");
+			break;
+		case 'u':
+			System.out.println("Character:"+ch+" is vowel");
+			break;
+		default:
+			System.out.println("Character:"+ch+" is consonant");
+			break;
+		
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+}
