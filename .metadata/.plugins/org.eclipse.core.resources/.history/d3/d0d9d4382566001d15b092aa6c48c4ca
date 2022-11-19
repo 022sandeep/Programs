@@ -1,0 +1,16 @@
+package programs;
+
+public class ArrayIndexExample {
+
+	public static void main(String[] args) 
+	{
+       int a[]= {12,34,45};
+       
+       a[4]=a[1]+a[2];
+       System.out.println("Value after addition is:"+a[4]);
+       
+       a[0]=a[2]-a[1];
+       System.out.println("Value after Subtraction is:"+a[4]);
+	}
+
+}
