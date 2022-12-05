@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-05T08:29:29 IST" name="Default suite" finished-at="2022-12-05T08:29:41 IST" duration-ms="11550">
+    <groups>
+    </groups>
+    <test started-at="2022-12-05T08:29:29 IST" name="Default test" finished-at="2022-12-05T08:29:41 IST" duration-ms="11550">
+      <class name="facebookProject.FacebookHomePage">
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:facebookProject.FacebookHomePage@41e1e210]" started-at="2022-12-05T08:29:29 IST" name="preRequisite" finished-at="2022-12-05T08:29:33 IST" duration-ms="4173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="f2()[pri:0, instance:facebookProject.FacebookHomePage@41e1e210]" started-at="2022-12-05T08:29:33 IST" name="f2" finished-at="2022-12-05T08:29:33 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:facebookProject.FacebookHomePage@41e1e210]" started-at="2022-12-05T08:29:33 IST" name="afterMethod" finished-at="2022-12-05T08:29:34 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:facebookProject.FacebookHomePage@41e1e210]" started-at="2022-12-05T08:29:34 IST" name="preRequisite" finished-at="2022-12-05T08:29:37 IST" duration-ms="3355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="f3()[pri:0, instance:facebookProject.FacebookHomePage@41e1e210]" started-at="2022-12-05T08:29:37 IST" name="f3" finished-at="2022-12-05T08:29:37 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:facebookProject.FacebookHomePage@41e1e210]" started-at="2022-12-05T08:29:37 IST" name="afterMethod" finished-at="2022-12-05T08:29:37 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="preRequisite()[pri:0, instance:facebookProject.FacebookHomePage@41e1e210]" started-at="2022-12-05T08:29:37 IST" name="preRequisite" finished-at="2022-12-05T08:29:41 IST" duration-ms="3378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method signature="validatingFacebookPageTitle()[pri:0, instance:facebookProject.FacebookHomePage@41e1e210]" started-at="2022-12-05T08:29:41 IST" name="validatingFacebookPageTitle" description="TC1: Verify facebook home page title" finished-at="2022-12-05T08:29:41 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingFacebookPageTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:facebookProject.FacebookHomePage@41e1e210]" started-at="2022-12-05T08:29:41 IST" name="afterMethod" finished-at="2022-12-05T08:29:41 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- facebookProject.FacebookHomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
